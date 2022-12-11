@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+
+.rounded{
+    height: 500px;
+    width: auto;
+}
+
+.recipe{
+    padding: 5px;
+}
+
+h5{
+    padding: 25px;
+    text-align: center;
+}
