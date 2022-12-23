@@ -9,6 +9,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: rgb(209, 200, 176) !important;
+}
+
 .rounded{
     height: 500px;
     width: auto;
@@ -16,9 +20,9 @@ html{
 }
 
 .rounded:hover{
-    background: #B19CD9;
+    /* background: #B19CD9; */
     transform: translateY(-10px);
-    color: #000;
+    /* color: #000; */
 }
 
 .recipe{
@@ -69,4 +73,12 @@ h5:hover{
     padding: 25px;
     padding-left: 500px;
     padding-right: 500px;
+}
+
+#header, .container{
+    margin-bottom: 30px;
+}
+
+#header-main{
+    margin: 30px;
 }
